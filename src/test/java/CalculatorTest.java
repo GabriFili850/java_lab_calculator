@@ -24,5 +24,10 @@ public class CalculatorTest {
         assertEquals(10, calculator.calculatorSub( 30, 20));
     }
 
+    @Test
+    public void multiply() {
+        assertEquals(45, calculator.calculatorMultiply(9, 5));
+    }
+
 
 }

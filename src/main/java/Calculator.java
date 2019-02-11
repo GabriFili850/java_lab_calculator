@@ -11,7 +11,10 @@ public class Calculator {
         return c;
     }
 
-
+    public int calculatorMultiply(int a, int b){
+        int c = a * b;
+        return c;
+    }
 }
 
 
