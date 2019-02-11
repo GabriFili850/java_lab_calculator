@@ -15,6 +15,11 @@ public class Calculator {
         int c = a * b;
         return c;
     }
+
+    public int calculatorDivide(int a, int b){
+        int c = a / b;
+        return c;
+    }
 }
 
 
