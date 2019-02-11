@@ -19,5 +19,10 @@ public class CalculatorTest {
         assertEquals(7, calculator.calculatorAdd(5, 2));
     }
 
+    @Test
+    public void sub() {
+        assertEquals(10, calculator.calculatorSub( 30, 20));
+    }
+
 
 }
